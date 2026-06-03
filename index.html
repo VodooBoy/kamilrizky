@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Kamil Rizky</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=DM+Sans:ital,wght@0,300..500;1,300..500&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet"/>
+  
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <img src="assets/kamil-out.png" alt="Logo Portfolio" class="logo-light">
+      <img src="assets/kamil-out2.png" alt="Logo Portfolio" class="logo-dark">
+    </a>
+    
+    <div class="nav-links" id="nav-links">
+      <a href="index.html#about">Tentang</a>
+      <a href="index.html#projects">Proyek</a>
+      <a href="index.html#contact">Kontak</a>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <label class="switch">
+        <input id="input" type="checkbox" />
+        <div class="slider round">
+          <div class="sun-moon">
+            <svg id="moon-dot-1" class="moon-dot" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="moon-dot-2" class="moon-dot" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="moon-dot-3" class="moon-dot" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="light-ray-1" class="light-ray" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="light-ray-2" class="light-ray" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="light-ray-3" class="light-ray" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="cloud-1" class="cloud-dark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="cloud-2" class="cloud-dark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="cloud-3" class="cloud-dark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="cloud-4" class="cloud-light" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="cloud-5" class="cloud-light" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="cloud-6" class="cloud-light" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+          </div>
+          <div class="stars">
+            <svg id="star-1" class="star" viewBox="0 0 20 20"><path d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"></path></svg>
+            <svg id="star-2" class="star" viewBox="0 0 20 20"><path d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"></path></svg>
+            <svg id="star-3" class="star" viewBox="0 0 20 20"><path d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"></path></svg>
+            <svg id="star-4" class="star" viewBox="0 0 20 20"><path d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"></path></svg>
+          </div>
+        </div>
+      </label>
+      
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <div class="hero" style="min-height: 100vh; padding-top: 150px; padding-bottom: 50px; overflow: hidden;">
+    
+    <svg class="deco-wave wave-left" viewBox="0 0 100 100" fill="none">
+      <path d="M90,10 Q20,30 50,60 T10,90" stroke="var(--accent)" stroke-width="8" stroke-linecap="round"/>
+    </svg>
+    
+    <svg class="deco-wave wave-right" viewBox="0 0 100 100" fill="none">
+      <path d="M10,90 Q80,70 50,40 T90,10" stroke="var(--accent)" stroke-width="8" stroke-linecap="round"/>
+    </svg>
+
+    <div class="hero-title-wrapper">
+      <h1 class="hero-title-main">KAMIL RIZKY</h1>
+      <span class="hero-title-overlay">Portfolio</span>
+    </div>
+
+    <p class="hero-desc" style="max-width: 650px; margin-top: 1rem;">
+      Sebagai seorang <strong>problem solver</strong>, saya memadukan logika kode dan estetika desain untuk menghadirkan solusi digital yang fungsional dan berkesan.
+    </p>
+
+    <div class="hero-tags-outline">
+      <span class="tag-outline">Web Development</span>
+      <span class="tag-outline">Graphic Design</span>
+      <span class="tag-outline">Logo & Branding</span>
+    </div>
+
+    <div class="deco-dots dots-left">
+      <div class="dot dot-yellow"></div>
+      <div class="dot dot-white"></div>
+    </div>
+    <div class="deco-dots dots-right">
+      <div class="dot dot-yellow"></div>
+      <div class="dot dot-white"></div>
+    </div>
+    
+  </div>
+
+  <div class="divider"></div>
+  <section id="about">
+    <div class="section-header reveal">
+      <h2 class="section-title">Tentang Saya</h2>
+      <span class="section-line"></span>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          Halo! Saya <strong>Kamil Rizky</strong>. Lebih dari sekadar kreator digital, saya adalah seorang problem solver yang memadukan logika kode dan estetika desain. Bagi saya, website yang baik bukan sekadar soal keindahan visual, melainkan solusi fungsional yang memberikan pengalaman terbaik bagi penggunanya.
+        </p>
+        <p>
+          Saya telah mengerjakan berbagai proyek mulai dari <strong>website untuk UMKM lokal</strong>,
+          desain grafis, hingga identitas merek. Setiap proyek saya dekati dengan
+          perhatian penuh terhadap detail dan tujuan bisnis yang nyata.
+        </p>
+        <p>
+          Saat ini saya <strong>terbuka untuk proyek freelance</strong> dan kesempatan kolaborasi baru.
+        </p>
+      </div>
+      <div class="skills-list reveal">
+        <div class="skill-item">
+          <span>HTML &amp; CSS</span>
+          <span class="skill-tag web">Web Dev</span>
+        </div>
+        <div class="skill-item">
+          <span>JavaScript</span>
+          <span class="skill-tag web">Web Dev</span>
+        </div>
+        <div class="skill-item">
+          <span>Bootstrap / Responsive Design</span>
+          <span class="skill-tag web">Web Dev</span>
+        </div>
+        <div class="skill-item">
+          <span>Adobe Illustrator / Photoshop</span>
+          <span class="skill-tag design">Graphic Design</span>
+        </div>
+        <div class="skill-item">
+          <span>Logo &amp; Brand Identity</span>
+          <span class="skill-tag brand">Branding</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+  <section id="projects">
+    <div class="section-header reveal">
+      <h2 class="section-title">Layanan & Keahlian</h2>
+      <span class="section-line"></span>
+    </div>
+
+    <div class="projects-grid">
+
+      <a href="web-tech.html" style="text-decoration: none; color: inherit;" class="project-card card-web reveal">
+        <div class="project-img">
+          <div class="project-img-placeholder">
+            <div class="icon">💻</div>
+            <div class="placeholder-text">Platform & Web App</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-cat web">Web Development &amp; Tech</p>
+          <h3 class="project-name">Web Development</h3>
+          <p class="project-desc">
+            Saya membantu klien mengubah ide dan permasalahan bisnis menjadi solusi digital yang efektif melalui pengembangan website modern, optimasi UI/UX, serta pengalaman pengguna yang lancar di berbagai perangkat.
+          </p>
+          <div class="project-footer">
+            <div class="tech-stack">
+              <span class="tech-pill">HTML/CSS</span>
+              <span class="tech-pill">JS</span>
+              <span class="tech-pill">Python</span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="branding.html" style="text-decoration: none; color: inherit;" class="project-card card-brand reveal">
+        <div class="project-img">
+          <div class="project-img-placeholder">
+            <div class="icon">👕</div>
+            <div class="placeholder-text">Mockup Produk Fisik</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-cat brand">Branding &amp; Merchandise</p>
+          <h3 class="project-name">Identitas Visual</h3>
+          <p class="project-desc">
+            Perancangan desain logo dan identitas brand. Mewujudkan konsep estetika digital menjadi produk yang nyata.
+          </p>
+          <div class="project-footer">
+            <div class="tech-stack">
+              <span class="tech-pill">Illustrator</span>
+              <span class="tech-pill">Photoshop</span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="multimedia.html" style="text-decoration: none; color: inherit;" class="project-card card-design reveal">
+        <div class="project-img">
+          <div class="project-img-placeholder">
+            <div class="icon">🎬</div>
+            <div class="placeholder-text">Video Essay & Analitik</div>
+          </div>
+        </div>
+        <div class="project-body">
+          <p class="project-cat design">Multimedia &amp; Content</p>
+          <h3 class="project-name">Content Creation</h3>
+          <p class="project-desc">
+            Produksi konten audiovisual, penulisan skrip analitik film, dan penyampaian cerita. Menggabungkan riset mendalam dengan teknik video editing.
+          </p>
+          <div class="project-footer">
+            <div class="tech-stack">
+              <span class="tech-pill">Video Editing</span>
+              <span class="tech-pill">Storytelling</span>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+  <section id="contact">
+    <div class="section-header reveal">
+      <h2 class="section-title">Kontak</h2>
+      <span class="section-line"></span>
+    </div>
+    <div class="contact-wrap">
+      <div class="contact-text reveal">
+        <h3>Ingin diskusi?</h3>
+        <p>
+          Saya terbuka untuk kolaborasi, freelance, maupun diskusi santai
+          seputar web dan desain. Jangan ragu untuk menghubungi saya.
+        </p>
+        <a href="mailto:kamilrizky02@gmail.com" class="contact-email">kamilrizky02@gmail.com</a>
+      </div>
+      <div class="contact-links reveal">
+        <a href="https://instagram.com/kamilrizky_1" target="_blank" class="contact-link-item">
+          <span class="contact-link-label">Instagram</span>
+          <span class="contact-link-handle"> →</span>
+        </a>
+        <a href="https://wa.me/6281952556475" target="_blank" class="contact-link-item">
+          <span class="contact-link-label">WhatsApp</span>
+          <span class="contact-link-handle"> →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Kamil Rizky. Dibuat dengan HTML, CSS &amp; JS.</span>
+    <span>Jakarta, Indonesia</span>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Vanilla Tilt Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+</body>
+</html>

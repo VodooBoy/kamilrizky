@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Branding & Logo — Kamil Rizky</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=DM+Sans:ital,wght@0,300..500;1,300..500&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet"/>
+  
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    /* HANYA CSS KHUSUS HALAMAN INI SAJA YANG TERSISA DI SINI */
+    
+    /* Cover backgrounds untuk aksen di belakang foto (opsional) */
+    .cover-nurba-idn    { background: linear-gradient(135deg, #1a1408 0%, #241c0a 100%); }
+    .cover-nurba-studio { background: linear-gradient(135deg, #180f20 0%, #1c1228 100%); }
+    .cover-cjt          { background: linear-gradient(135deg, #0d1f1a 0%, #0f2520 100%); }
+    .cover-mortes       { background: linear-gradient(135deg, #181410 0%, #1c1812 100%); }
+    .cover-bakso        { background: linear-gradient(135deg, #1f1208 0%, #231608 100%); }
+
+    /* ACCENT COLORS UNTUK KATEGORI */
+    .cat-ambigram  { color: var(--nurba-accent); }
+    .cat-geometric { color: var(--studio-accent); }
+    .cat-apparel   { color: var(--cjt-accent); }
+    .cat-coffee    { color: var(--mortes-accent); }
+    .cat-culinary  { color: var(--bakso-accent); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <img src="assets/kamil-out.png" alt="Logo Portfolio" class="logo-light">
+      <img src="assets/kamil-out2.png" alt="Logo Portfolio" class="logo-dark">
+    </a>
+    
+    <div class="nav-links" id="nav-links">
+      <a href="index.html#about">Tentang</a>
+      <a href="index.html#projects">Proyek</a>
+      <a href="index.html#contact">Kontak</a>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <label class="switch">
+        <input id="input" type="checkbox" />
+        <div class="slider round">
+          <div class="sun-moon">
+            <svg id="moon-dot-1" class="moon-dot" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="moon-dot-2" class="moon-dot" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="moon-dot-3" class="moon-dot" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="light-ray-1" class="light-ray" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="light-ray-2" class="light-ray" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="light-ray-3" class="light-ray" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="cloud-1" class="cloud-dark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="cloud-2" class="cloud-dark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="cloud-3" class="cloud-dark" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="cloud-4" class="cloud-light" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="cloud-5" class="cloud-light" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+            <svg id="cloud-6" class="cloud-light" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"></circle></svg>
+          </div>
+          <div class="stars">
+            <svg id="star-1" class="star" viewBox="0 0 20 20"><path d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"></path></svg>
+            <svg id="star-2" class="star" viewBox="0 0 20 20"><path d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"></path></svg>
+            <svg id="star-3" class="star" viewBox="0 0 20 20"><path d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"></path></svg>
+            <svg id="star-4" class="star" viewBox="0 0 20 20"><path d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"></path></svg>
+          </div>
+        </div>
+      </label>
+      
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <a href="index.html#projects" class="back-link">← Kembali ke Portofolio</a>
+
+  <div class="page-hero reveal">
+    <p class="page-hero-label">Koleksi Karya</p>
+    <h1 class="page-hero-title">Brand Identity<br/>&amp; Logo Design</h1>
+    <p class="page-hero-desc">
+      Kumpulan proyek identitas merek — dari logo ambigram berbasis aksara Hanacaraka hingga desain kemasan kopi filosofis. Setiap karya lahir dari pemahaman mendalam terhadap nilai dan kebutuhan klien.
+    </p>
+    <div class="page-hero-meta">
+      <div class="meta-item">
+        <span class="meta-label">Total Proyek</span>
+        <span class="meta-value">5 Brand</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Tools</span>
+        <span class="meta-value">Illustrator, Photoshop</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Kategori</span>
+        <span class="meta-value">Logo, Kemasan, Visual Identity</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="filter-bar reveal">
+    <button class="filter-btn active" onclick="filterCards('all', this)">Semua</button>
+    <button class="filter-btn" onclick="filterCards('logo', this)">Logo</button>
+    <button class="filter-btn" onclick="filterCards('packaging', this)">Kemasan</button>
+    <button class="filter-btn" onclick="filterCards('identity', this)">Visual Identity</button>
+    <button class="filter-btn" onclick="filterCards('typography', this)">Tipografi</button>
+  </div>
+
+  <div class="bh-grid">
+
+    <div class="bh-card-wide reveal" data-tags="logo typography" onclick="openModal('nurba-idn')" data-tilt data-tilt-max="2" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
+      <div class="bh-cover cover-nurba-idn">
+        <img src="assets/nurba-idn.png" alt="nurba.idn" class="bh-cover-img">
+        <div class="bh-overlay"><span class="bh-overlay-btn">Lihat Detail</span></div>
+      </div>
+      <div class="bh-info">
+        <div class="bh-highlight">★ Featured Project</div>
+        <p class="bh-cat cat-ambigram">Logo · Tipografi · Ambigram</p>
+        <h2 class="bh-title">nurba.idn</h2>
+        <p class="bh-desc">
+          Logo ambigram menggunakan tipografi aksara Hanacaraka — dapat dibaca dari dua arah. Menggabungkan estetika tradisi Jawa dengan identitas digital modern.
+        </p>
+        <div class="bh-tags">
+          <span class="bh-tag">Ambigram</span>
+          <span class="bh-tag">Hanacaraka</span>
+          <span class="bh-tag">Illustrator</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="bh-card reveal" data-tags="logo typography" onclick="openModal('nurba-studio')" data-tilt data-tilt-max="4" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
+      <div class="bh-cover cover-nurba-studio">
+        <img src="assets/nurba-studio.png" alt="Nurba Studio" class="bh-cover-img">
+        <div class="bh-overlay"><span class="bh-overlay-btn">Lihat Detail</span></div>
+      </div>
+      <div class="bh-info">
+        <p class="bh-cat cat-geometric">Logo · Geometris · Kaligrafi Arab</p>
+        <h3 class="bh-title">Nurba Studio</h3>
+        <p class="bh-desc">
+          Logo segitiga terinspirasi kaligrafi huruf Arab. Memadukan keanggunan tradisi dengan form modern yang tegas.
+        </p>
+        <div class="bh-tags">
+          <span class="bh-tag">Geometric</span>
+          <span class="bh-tag">Kaligrafi Arab</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="bh-card reveal" data-tags="logo packaging identity" onclick="openModal('mortes')" data-tilt data-tilt-max="4" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
+      <div class="bh-cover cover-mortes">
+        <img src="assets/mortes.png" alt="Mortes Kopi" class="bh-cover-img">
+        <div class="bh-overlay"><span class="bh-overlay-btn">Lihat Detail</span></div>
+      </div>
+      <div class="bh-info">
+        <p class="bh-cat cat-coffee">Logo · Kemasan · Filosofis</p>
+        <h3 class="bh-title">Mortes.Kopi</h3>
+        <p class="bh-desc">
+          Logo merepresentasikan 7 pendiri, dilengkapi desain label kemasan botol kopi yang filosofis.
+        </p>
+        <div class="bh-tags">
+          <span class="bh-tag">Logo Filosofis</span>
+          <span class="bh-tag">Packaging</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="bh-card-wide reveal" data-tags="identity packaging" onclick="openModal('cjt')" data-tilt data-tilt-max="2" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
+      <div class="bh-cover cover-cjt">
+        <img src="assets/cjt_logo.webp" alt="CJT Apparel" class="bh-cover-img">
+        <div class="bh-overlay"><span class="bh-overlay-btn">Lihat Detail</span></div>
+      </div>
+      <div class="bh-info">
+        <p class="bh-cat cat-apparel">Visual Identity · Apparel</p>
+        <h2 class="bh-title">CJT Apparel</h2>
+        <p class="bh-desc">
+          Identitas visual elegan untuk brand celana pendek premium. Mencakup hangtag fisik dan template supergraphics.
+        </p>
+        <div class="bh-tags">
+          <span class="bh-tag">Hangtag Design</span>
+          <span class="bh-tag">Supergraphics</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="bh-card reveal" data-tags="logo identity" onclick="openModal('bakso')" style="column-span: all;" data-tilt data-tilt-max="4" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
+      <div class="bh-cover cover-bakso">
+        <img src="assets/bmw.png" alt="Bakso Mie Wamin" class="bh-cover-img">
+        <div class="bh-overlay"><span class="bh-overlay-btn">Lihat Detail</span></div>
+      </div>
+      <div class="bh-info">
+        <p class="bh-cat cat-culinary">Logo · Ilustratif · Kuliner</p>
+        <h3 class="bh-title">Bakso Mie Wamin</h3>
+        <p class="bh-desc">
+          Logo ilustratif dengan elemen wajan mini, mi, dan bakso — mengeksekusi permintaan spesifik klien kuliner lokal.
+        </p>
+        <div class="bh-tags">
+          <span class="bh-tag">Logo Ilustratif</span>
+          <span class="bh-tag">Kuliner</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="modal-backdrop" id="modal-nurba-idn">
+    <div class="modal">
+      <button class="modal-close" onclick="closeModal('nurba-idn')">✕</button>
+      <div class="modal-cover cover-nurba-idn">
+        <img src="assets/nurba-idn.png" alt="nurba.idn" class="ph-img-modal">
+      </div>
+      <div class="modal-body">
+        <p class="modal-cat cat-ambigram">Logo · Tipografi · Ambigram</p>
+        <h2 class="modal-title">nurba.idn</h2>
+        <p class="modal-desc">
+          Proyek ini menantang saya untuk menciptakan logo yang bisa dibaca dari dua arah — sebuah ambigram menggunakan aksara Hanacaraka (aksara Jawa).
+        </p>
+        <div style="margin-top: 3rem; text-align: center;">
+          <a href="#" target="_blank" class="btn-full-project">Lihat Full Projek ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal-nurba-studio">
+    <div class="modal">
+      <button class="modal-close" onclick="closeModal('nurba-studio')">✕</button>
+      <div class="modal-cover cover-nurba-studio">
+        <img src="assets/nurba-studio.png" alt="Nurba Studio" class="ph-img-modal">
+      </div>
+      <div class="modal-body">
+        <p class="modal-cat cat-geometric">Logo · Geometris · Kaligrafi Arab</p>
+        <h2 class="modal-title">Nurba Studio</h2>
+        <p class="modal-desc">
+          Logo untuk Nurba Studio menggunakan bentuk dasar segitiga sebagai simbol kreativitas dan konstruksi. Di dalam form geometris tersebut tersembunyi kaligrafi huruf Arab.
+        </p>
+        <div style="margin-top: 3rem; text-align: center;">
+          <a href="#" target="_blank" class="btn-full-project">Lihat Full Projek ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal-cjt">
+    <div class="modal">
+      <button class="modal-close" onclick="closeModal('cjt')">✕</button>
+      <div class="modal-cover cover-cjt">
+        <img src="assets/cjt_logo.webp" alt="CJT Apparel" class="ph-img-modal">
+      </div>
+      <div class="modal-body">
+        <p class="modal-cat cat-apparel">Visual Identity · Apparel · Supergraphics</p>
+        <h2 class="modal-title">CJT Apparel</h2>
+        <p class="modal-desc">
+          Proyek identitas visual menyeluruh untuk brand celana pendek CJT. Pekerjaan meliputi desain hangtag fisik yang elegan, serta pembuatan template sosmed.
+        </p>
+        <div style="margin-top: 3rem; text-align: center;">
+          <a href="https://drive.google.com/file/d/1efIRHp3W9VSmzCIKjr0fxTS9-N4O9n9_/view?usp=drivesdk" target="_blank" class="btn-full-project">Lihat Full Projek ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal-mortes">
+    <div class="modal">
+      <button class="modal-close" onclick="closeModal('mortes')">✕</button>
+      <div class="modal-cover cover-mortes">
+        <img src="assets/mortes.png" alt="Mortes Kopi" class="ph-img-modal">
+      </div>
+      <div class="modal-body">
+        <p class="modal-cat cat-coffee">Logo · Kemasan · Filosofis</p>
+        <h2 class="modal-title">Mortes.Kopi</h2>
+        <p class="modal-desc">
+          Mortes.Kopi didirikan oleh 7 orang — dan logo ini dirancang untuk merepresentasikan setiap pendirinya secara simbolik.
+        </p>
+        <div style="margin-top: 3rem; text-align: center;">
+          <a href="#" target="_blank" class="btn-full-project">Lihat Full Projek ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="modal-bakso">
+    <div class="modal">
+      <button class="modal-close" onclick="closeModal('bakso')">✕</button>
+      <div class="modal-cover cover-bakso">
+        <img src="assets/bmw.png" alt="Bakso Mie Wamin" class="ph-img-modal">
+      </div>
+      <div class="modal-body">
+        <p class="modal-cat cat-culinary">Logo · Ilustratif · Kuliner</p>
+        <h2 class="modal-title">Bakso Mie Wamin</h2>
+        <p class="modal-desc">
+          Klien memiliki visi yang sangat spesifik: logo yang menggambarkan wajan mini, mi, dan bakso secara ilustratif.
+        </p>
+        <div style="margin-top: 3rem; text-align: center;">
+          <a href="#" target="_blank" class="btn-full-project">Lihat Full Projek ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="margin-top: 4rem;">
+    <span>© 2026 Kamil Rizky. Dibuat dengan HTML, CSS &amp; JS.</span>
+    <span>Jakarta, Indonesia</span>
+  </footer>
+
+  <script>
+    // Filter Card
+    function filterCards(tag, btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.bh-card, .bh-card-wide').forEach(card => {
+        const tags = card.dataset.tags || '';
+        const show = tag === 'all' || tags.includes(tag);
+        card.style.opacity = show ? '1' : '0.2';
+        card.style.pointerEvents = show ? 'auto' : 'none';
+      });
+    }
+
+    // Modal Control
+    function openModal(id) {
+      document.getElementById('modal-' + id).classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(id) {
+      document.getElementById('modal-' + id).classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.querySelectorAll('.modal-backdrop').forEach(b => {
+      b.addEventListener('click', e => {
+        if (e.target === b) { b.classList.remove('open'); document.body.style.overflow = ''; }
+      });
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.modal-backdrop.open').forEach(m => {
+          m.classList.remove('open'); document.body.style.overflow = '';
+        });
+      }
+    });
+  </script>
+  
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+</body>
+</html>
