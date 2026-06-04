@@ -11,6 +11,7 @@
 </head>
 <body>
 
+  <!-- NAVBAR MELAYANG -->
   <nav>
     <a href="index.html" class="nav-logo">
       <img src="assets/kamil-out.png" alt="Logo Portfolio" class="logo-light">
@@ -53,8 +54,9 @@
     </div>
   </nav>
 
-  <a href="index.html" class="back-link">← Kembali ke Portofolio</a>
+  <a href="index.html#projects" class="back-link">← Kembali ke Portofolio</a>
 
+  <!-- HERO SECTION -->
   <header class="page-hero reveal">
     <div class="page-hero-label">Koleksi Karya</div>
     <h1 class="page-hero-title">Video Essay &<br>Storytelling</h1>
@@ -64,7 +66,7 @@
     <div class="page-hero-meta">
       <div class="meta-item">
         <span class="meta-label">Total Proyek</span>
-        <span class="meta-value">Beberapa Video</span>
+        <span class="meta-value">1 Proyek Unggulan</span>
       </div>
       <div class="meta-item">
         <span class="meta-label">Tools</span>
@@ -79,80 +81,32 @@
 
   <div class="filter-bar reveal">
     <button class="filter-btn active">Semua</button>
-    <button class="filter-btn">Film Analysis</button>
-    <button class="filter-btn">Sejarah & Riset</button>
-    <button class="filter-btn">Scriptwriting</button>
+    <button class="filter-btn">Visual Content</button>
   </div>
 
+  <!-- MASONRY GRID PROJECTS -->
   <div class="bh-grid">
     
-    <a href="javascript:void(0)" class="bh-card-wide reveal" onclick="openModal('spider-man')" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
+    <!-- CARD 1: URBAN WORKS IDN -->
+    <a href="javascript:void(0)" class="bh-card-wide reveal" onclick="openModal('urbanworks')" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
       <div class="bh-cover">
-        <div class="bh-cover-placeholder">
-          <div class="ph-icon">🕷️</div>
-          <div class="ph-label">Video Essay</div>
-        </div>
+        <!-- GAMBAR COVER PENUH -->
+        <img src="assets/urbanworks.webp" alt="Urban Works.idn" class="bh-cover-img">
         <div class="bh-overlay">
           <button class="bh-overlay-btn">Lihat Detail</button>
         </div>
       </div>
       <div class="bh-info">
-        <div class="bh-highlight">Featured Essay</div>
-        <p class="bh-cat">Analisis Narasi · Pop Culture</p>
-        <h3 class="bh-title">The Philosophy of Spider-Man</h3>
+        <div class="bh-highlight">Featured Project</div>
+        <p class="bh-cat">Content Instagram · Branding</p>
+        <h3 class="bh-title">Urban Works.idn</h3>
         <p class="bh-desc">
-          Penyusunan skrip dan produksi video essay yang membedah struktur penceritaan (storytelling) serta tema filosofis di balik karakter ikonis. Menyelaraskan visual dan ritme narasi untuk retensi penonton yang tinggi.
+          Membuat konten visual yang menarik untuk platform Instagram, fokus pada narasi, estetika visual yang kuat dan sesuai dengan brandingnya.
         </p>
         <div class="bh-tags">
-          <span class="bh-tag">Scriptwriting</span>
+          <span class="bh-tag">Instagram Content</span>
           <span class="bh-tag">Video Editing</span>
-          <span class="bh-tag">Faceless</span>
-        </div>
-      </div>
-    </a>
-
-    <a href="javascript:void(0)" class="bh-card reveal" onclick="openModal('terminator')" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
-      <div class="bh-cover">
-        <div class="bh-cover-placeholder">
-          <div class="ph-icon">🤖</div>
-          <div class="ph-label">Film Analysis</div>
-        </div>
-        <div class="bh-overlay">
-          <button class="bh-overlay-btn">Lihat Detail</button>
-        </div>
-      </div>
-      <div class="bh-info">
-        <p class="bh-cat">Sinematografi · Horror Thriller</p>
-        <h3 class="bh-title">The Terminator: Horror Elements</h3>
-        <p class="bh-desc">
-          Deep-dive analitik mengenai elemen horor dalam sinematografi film The Terminator. Riset visual berfokus pada bagaimana penempatan kamera dan tensi cerita membangun atmosfer ketakutan.
-        </p>
-        <div class="bh-tags">
-          <span class="bh-tag">Film Analysis</span>
-          <span class="bh-tag">Research</span>
-        </div>
-      </div>
-    </a>
-
-    <a href="javascript:void(0)" class="bh-card reveal" onclick="openModal('sejarah')" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.1">
-      <div class="bh-cover">
-        <div class="bh-cover-placeholder">
-          <div class="ph-icon">🦴</div>
-          <div class="ph-label">Riset Sejarah</div>
-        </div>
-        <div class="bh-overlay">
-          <button class="bh-overlay-btn">Lihat Detail</button>
-        </div>
-      </div>
-      <div class="bh-info">
-        <p class="bh-cat">Riset Sejarah · Arkeologi</p>
-        <h3 class="bh-title">Asal Mula Peperangan Manusia</h3>
-        <p class="bh-desc">
-          Mengangkat temuan arkeologis prasejarah seperti Jebel Sahaba dan Nataruk ke dalam format penceritaan visual yang menarik, mendalam, dan edukatif untuk konten YouTube.
-        </p>
-        <div class="bh-tags">
-          <span class="bh-tag">History</span>
-          <span class="bh-tag">Edu-Content</span>
+          <span class="bh-tag">Canva</span>
         </div>
       </div>
     </a>
@@ -165,111 +119,48 @@
     <span>Jakarta, Indonesia</span>
   </footer>
 
-  <div class="modal-backdrop" id="modal-spider-man">
+  <!-- =========================================
+       MODALS / POP-UPS (PREVIEW DETAIL)
+       ========================================= -->
+
+  <!-- Modal Urban Works -->
+  <div class="modal-backdrop" id="modal-urbanworks">
     <div class="modal">
-      <button class="modal-close" onclick="closeModal('spider-man')">✕</button>
+      <button class="modal-close" onclick="closeModal('urbanworks')">✕</button>
       <div class="modal-cover">
-        <div class="bh-cover-placeholder" style="padding:4rem 2rem;">
-          <div class="ph-icon" style="font-size:4rem;">🕷️</div>
-        </div>
+        <!-- GAMBAR DI DALAM POP UP MODAL -->
+        <img src="assets/urbanworks.webp" alt="Preview Urban Works" class="ph-img-modal">
       </div>
       <div class="modal-body">
-        <p class="modal-cat">Multimedia · YouTube Content</p>
-        <h2 class="modal-title">The Philosophy of Spider-Man</h2>
+        <p class="modal-cat">Multimedia · Instagram Content</p>
+        <h2 class="modal-title">Urban Works.idn</h2>
         <p class="modal-desc">
-          Penyusunan skrip mendalam dan produksi video essay faceless yang mengeksplorasi sisi psikologis dan dilema moral dari pahlawan super legendaris ini. Fokus pada retensi audiens tinggi menggunakan ritme visual (pacing) dan teknik editing transisi yang dinamis.
+          Membuat konten visual yang menarik untuk platform Instagram, fokus pada narasi, estetika visual yang kuat dan sesuai dengan brandingnya.
         </p>
         <div class="modal-detail-grid">
           <div class="modal-detail-item">
             <span class="modal-detail-label">Platform</span>
-            <span class="modal-detail-value">Kanal YouTube</span>
+            <span class="modal-detail-value">Kanal Instagram</span>
           </div>
           <div class="modal-detail-item">
             <span class="modal-detail-label">Kategori</span>
-            <span class="modal-detail-value">Video Essay</span>
+            <span class="modal-detail-value">Visual Content</span>
           </div>
           <div class="modal-detail-item">
             <span class="modal-detail-label">Tools</span>
-            <span class="modal-detail-value">CapCut, Scripting</span>
+            <span class="modal-detail-value">CapCut, Canva</span>
           </div>
         </div>
         <div style="margin-top: 3rem; text-align: left;">
-          <a href="#" target="_blank" class="btn-full-project">Tonton Video ↗</a>
+          <a href="https://www.instagram.com/urbanworks.idn/" target="_blank" class="btn-full-project">Lihat Projek ↗</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="modal-backdrop" id="modal-terminator">
-    <div class="modal">
-      <button class="modal-close" onclick="closeModal('terminator')">✕</button>
-      <div class="modal-cover">
-        <div class="bh-cover-placeholder" style="padding:4rem 2rem;">
-          <div class="ph-icon" style="font-size:4rem;">🤖</div>
-        </div>
-      </div>
-      <div class="modal-body">
-        <p class="modal-cat">Multimedia · Film Analysis</p>
-        <h2 class="modal-title">The Terminator: Horror Elements</h2>
-        <p class="modal-desc">
-          Analisis sinematografi yang membedah bagaimana film fiksi ilmiah klasik ini meminjam teknik penceritaan genre slasher/horor. Meneliti penempatan kamera, tata cahaya redup yang kelam, dan ritme musik latar yang membangun atmosfer ketegangan konstan sepanjang cerita.
-        </p>
-        <div class="modal-detail-grid">
-          <div class="modal-detail-item">
-            <span class="modal-detail-label">Fokus</span>
-            <span class="modal-detail-value">Sinematografi</span>
-          </div>
-          <div class="modal-detail-item">
-            <span class="modal-detail-label">Kategori</span>
-            <span class="modal-detail-value">Analisis Film</span>
-          </div>
-          <div class="modal-detail-item">
-            <span class="modal-detail-label">Keahlian</span>
-            <span class="modal-detail-value">Riset Visual, Scripting</span>
-          </div>
-        </div>
-        <div style="margin-top: 3rem; text-align: left;">
-          <a href="#" target="_blank" class="btn-full-project">Tonton Video ↗</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal-backdrop" id="modal-sejarah">
-    <div class="modal">
-      <button class="modal-close" onclick="closeModal('sejarah')">✕</button>
-      <div class="modal-cover">
-        <div class="bh-cover-placeholder" style="padding:4rem 2rem;">
-          <div class="ph-icon" style="font-size:4rem;">🦴</div>
-        </div>
-      </div>
-      <div class="modal-body">
-        <p class="modal-cat">Multimedia · Dokumenter Pendek</p>
-        <h2 class="modal-title">Asal Mula Peperangan Manusia</h2>
-        <p class="modal-desc">
-          Proyek penceritaan sejarah berbasis bukti ilmiah yang menerjemahkan temuan arkeologi prasejarah kelam dari situs kuno Jebel Sahaba dan Nataruk ke dalam format dokumenter mini digital. Melibatkan pencarian footage arsip yang presisi dan proses mixing audio yang rapi agar narasi terdengar berbobot.
-        </p>
-        <div class="modal-detail-grid">
-          <div class="modal-detail-item">
-            <span class="modal-detail-label">Topik</span>
-            <span class="modal-detail-value">Arkeologi Prasejarah</span>
-          </div>
-          <div class="modal-detail-item">
-            <span class="modal-detail-label">Format</span>
-            <span class="modal-detail-value">Edu-Documentary</span>
-          </div>
-          <div class="modal-detail-item">
-            <span class="modal-detail-label">Keahlian</span>
-            <span class="modal-detail-value">Riset, Audio Mixing</span>
-          </div>
-        </div>
-        <div style="margin-top: 3rem; text-align: left;">
-          <a href="#" target="_blank" class="btn-full-project">Tonton Video ↗</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  <!-- =========================================
+       SCRIPTS CONTROLLER
+       ========================================= -->
   <script>
     function openModal(id) {
       document.getElementById('modal-' + id).classList.add('open');
@@ -301,6 +192,7 @@
   </script>
 
   <script src="script.js"></script>
+  <!-- Vanilla Tilt Script untuk efek interaktif 3D -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
 </body>
 </html>
